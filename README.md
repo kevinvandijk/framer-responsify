@@ -5,7 +5,7 @@ A simple module to change component styles based on screen width breakpoints.
 
 ## Installation
 
-Add the responsify.coffee file to the modules folder of your Framer myProject
+Add the responsify.coffee file to the modules folder of your Framer project
 
 ## Usage
 
