@@ -17,6 +17,6 @@ exports.responsify = (options) ->
       options: animateOptions
     )
 
-    if Screen.width > breakpoint
+    if Screen.width >= breakpoint
       component.animate(animation)
       break
