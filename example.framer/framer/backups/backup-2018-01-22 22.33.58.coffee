@@ -1,10 +1,8 @@
 flow = new FlowComponent
 	backgroundColor: "white"
-# print Screen.width
+print Screen.width
 flow.header = header
 flow.showNext page
-
-
 
 # Place this one time ontop:
 { responsify } = require('responsify')
@@ -32,15 +30,3 @@ responsify(
 			height: 100
 )
 
-responsify(
-	# for example:
-	animation:
-		time: 0.1
-	component: ovalThree, ovalOne
-	breakpoints:
-		0:
-			backgroundColor: "#0F526D"
-		376:
-			backgroundColor: "#B5BE36"
-			width: 300
-)

@@ -36,11 +36,10 @@ responsify(
 	# for example:
 	animation:
 		time: 0.1
-	component: ovalThree, ovalOne
+	component: ovalOne, ovalTwo, ovalThree
 	breakpoints:
 		0:
-			backgroundColor: "#0F526D"
+			color: 
 		376:
-			backgroundColor: "#B5BE36"
-			width: 300
+			height: 100
 )

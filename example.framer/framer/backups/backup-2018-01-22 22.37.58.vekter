@@ -131,8 +131,8 @@
             ],
             "brightness" : 100,
             "brightnessEnabled" : 0,
-            "centerAnchorX" : 0.49797570850202427,
-            "centerAnchorY" : 0.17916666666666667,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.14583333333333334,
             "children" : [
 
             ],
@@ -145,7 +145,7 @@
             "exportOptions" : [
 
             ],
-            "fillColor" : "#4455BB",
+            "fillColor" : "hsl(0, 32%, 44%)",
             "fillEnabled" : true,
             "fillGradient" : {
               "__class" : "LinearGradient",
@@ -157,14 +157,14 @@
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
-            "height" : 94,
+            "height" : 152,
             "heightFactor" : null,
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "fk_qq0tz5",
             "invert" : 0,
             "invertEnabled" : 0,
-            "left" : null,
+            "left" : 644,
             "locked" : false,
             "name" : "ovalThree",
             "opacity" : 1,
@@ -176,16 +176,16 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 76,
             "radiusTopRight" : 76,
-            "right" : null,
+            "right" : 644,
             "rotation" : 0,
             "saturate" : 100,
             "saturateEnabled" : 0,
             "sepia" : 0,
             "sepiaEnabled" : 0,
             "targetName" : "ovalThree",
-            "top" : 168,
+            "top" : 99,
             "visible" : true,
-            "width" : 94,
+            "width" : 152,
             "widthFactor" : null
           },
           {
@@ -211,8 +211,8 @@
             ],
             "brightness" : 100,
             "brightnessEnabled" : 0,
-            "centerAnchorX" : 0.49797570850202427,
-            "centerAnchorY" : 0.49708333333333332,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.39000000000000001,
             "children" : [
 
             ],
@@ -225,7 +225,7 @@
             "exportOptions" : [
 
             ],
-            "fillColor" : "#4455BB",
+            "fillColor" : "hsl(0, 32%, 44%)",
             "fillEnabled" : true,
             "fillGradient" : {
               "__class" : "LinearGradient",
@@ -237,14 +237,14 @@
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
-            "height" : 93,
+            "height" : 152,
             "heightFactor" : null,
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "LRAVBPo2N",
             "invert" : 0,
             "invertEnabled" : 0,
-            "left" : null,
+            "left" : 644,
             "locked" : false,
             "name" : "ovalTwo",
             "opacity" : 1,
@@ -256,16 +256,16 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 76,
             "radiusTopRight" : 76,
-            "right" : null,
+            "right" : 644,
             "rotation" : 0,
             "saturate" : 100,
             "saturateEnabled" : 0,
             "sepia" : 0,
             "sepiaEnabled" : 0,
             "targetName" : "ovalTwo",
-            "top" : 550,
+            "top" : 392,
             "visible" : true,
-            "width" : 94,
+            "width" : 152,
             "widthFactor" : null
           },
           {
@@ -291,8 +291,8 @@
             ],
             "brightness" : 100,
             "brightnessEnabled" : 0,
-            "centerAnchorX" : 0.49797570850202427,
-            "centerAnchorY" : 0.81999999999999995,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.63416666666666666,
             "children" : [
 
             ],
@@ -305,7 +305,7 @@
             "exportOptions" : [
 
             ],
-            "fillColor" : "#4455BB",
+            "fillColor" : "hsl(0, 32%, 44%)",
             "fillEnabled" : true,
             "fillGradient" : {
               "__class" : "LinearGradient",
@@ -317,14 +317,14 @@
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
-            "height" : 94,
+            "height" : 152,
             "heightFactor" : null,
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "KZs4Nkp7Q",
             "invert" : 0,
             "invertEnabled" : 0,
-            "left" : null,
+            "left" : 644,
             "locked" : false,
             "name" : "ovalOne",
             "opacity" : 1,
@@ -336,16 +336,16 @@
             "radiusPerCorner" : false,
             "radiusTopLeft" : 76,
             "radiusTopRight" : 76,
-            "right" : null,
+            "right" : 644,
             "rotation" : 0,
             "saturate" : 100,
             "saturateEnabled" : 0,
             "sepia" : 0,
             "sepiaEnabled" : 0,
             "targetName" : "ovalOne",
-            "top" : 937,
+            "top" : 685,
             "visible" : true,
-            "width" : 94,
+            "width" : 152,
             "widthFactor" : null
           }
         ],
@@ -377,7 +377,7 @@
         "id" : "aqMVrPqGI",
         "invert" : 0,
         "invertEnabled" : 0,
-        "left" : 598,
+        "left" : 0,
         "locked" : false,
         "name" : "page",
         "opacity" : 1,
@@ -398,7 +398,7 @@
         "targetName" : "page",
         "top" : -32,
         "visible" : true,
-        "width" : 247,
+        "width" : 1440,
         "widthFactor" : null
       }
     ],
