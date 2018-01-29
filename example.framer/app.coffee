@@ -7,40 +7,38 @@ flow.showNext page
 
 
 # Place this one time ontop:
-{ responsify } = require('responsify')
+{ responsify, createBreakpoints } = require('responsify')
 
-# Next to use for every component:
-# responsify(
-# 	component: header
-# 	breakpoints:
-# 		0:
-# 			height: 60
-# 		376:
-# 			height: 100
-# )
-
-# Option you can use animation:
-responsify(
-	# for example:
-	animation:
-		time: 0.1
-	component: header
+# Create breakpoint sets like this:
+createBreakpoints(
+	name: 'height'
 	breakpoints:
 		0:
-			height: 60
+			height: 160
 		376:
 			height: 100
 )
 
+createBreakpoints(
+	name: 'width'
+	breakpoints:
+		400:
+			width: 10
+)
+
+# Combine breakpoint sets and apply them to multiple components like this:
+# Optionally you can use animation
 responsify(
 	# for example:
 	animation:
 		time: 0.1
-	component: ovalThree, ovalOne
-	breakpoints:
-		0:
-			backgroundColor: "#0F526D"
-		376:
-			backgroundColor: "#B5BE36"
-			width: 300
+	components: [header, flow]
+	breakpoints: ['width', 'height']
+)
+
+# If you only want to change one component for example:
+responsify(
+	# for example:
+	component: header
+	breakpoint: 'width'
 )
