@@ -32,7 +32,7 @@ responsify(
 	# for example:
 	animation:
 		time: 0.1
-	components: [header, flow]
+	components: [header]
 	breakpoints: ['width', 'height']
 )
 
