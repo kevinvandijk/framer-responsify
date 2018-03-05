@@ -88,7 +88,7 @@ runAnimation = (animation) ->
         break
 
 runAllAnimations = Utils.throttle 0.4, ->
-  print 'RUN'
+  # print 'RUN'
   for storedAnimation in storedAnimations
       runAnimation(storedAnimation)
 

@@ -1,8 +1,8 @@
 flow = new FlowComponent
 	backgroundColor: "white"
 # print Screen.width
-flow.header = header
-flow.showNext page
+flow.header = mobile_Header
+flow.showNext mobile_FrontPage
 
 
 
@@ -11,7 +11,7 @@ flow.showNext page
 
 # Create breakpoint sets like this:
 createBreakpoints(
-	name: 'height'
+	name: 'frontpage'
 	breakpoints:
 		0:
 			height: 160
@@ -20,7 +20,7 @@ createBreakpoints(
 )
 
 createBreakpoints(
-	name: 'width'
+	name: 'harder'
 	breakpoints:
 		400:
 			width: 10
@@ -28,17 +28,18 @@ createBreakpoints(
 
 # Combine breakpoint sets and apply them to multiple components like this:
 # Optionally you can use animation
-responsify(
-	# for example:
-	animation:
-		time: 0.1
-	components: [header]
-	breakpoints: ['width', 'height']
-)
+# responsify(
+# 	# for example:
+# 	animation:
+# 		time: 0.1
+# 	components: [header]
+# 	breakpoints: ['width', 'height']
+# )
+# 
+# # If you only want to change one component for example:
+# responsify(
+# 	# for example:
+# 	component: header
+# 	breakpoint: 'width'
+# )
 
-# If you only want to change one component for example:
-responsify(
-	# for example:
-	component: header
-	breakpoint: 'width'
-)
